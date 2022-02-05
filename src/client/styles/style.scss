@@ -1,0 +1,77 @@
+$font-stack: Helvetica, sans-serif;
+
+body {
+background-color: 	rgb(247, 225, 210);
+padding: 5px;
+}
+
+main {
+  
+  margin: 50px auto ;
+  padding: 5px;
+  width:80%;
+  height: 300px;
+  box-shadow: 1px 1px 7px 5px lightcoral;
+  border:5px dashed  rgb(240, 108, 108);
+  
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px auto;
+  color: rgb(240, 108, 108);
+}
+
+section {
+  max-width: 70%;
+  margin: 30px auto;
+}
+
+form {
+  width:80%;
+  height: fit-content;
+  border-radius: 3px;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+input {
+  padding: 15px 20px;
+  width: 100%;
+  border:2px solid lightcoral;
+}
+
+
+#submitBtn {
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  width:fit-content;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: transparent;
+  border:2px solid lightcoral;
+  color: lightcoral;
+  font-weight: bold;
+}
+ ul {
+   list-style: none;
+   border:2px dashed  rgb(240, 108, 108);
+   width: fit-content;
+   padding: 10px;
+   margin: auto;
+ }
+   
+ 
+ li span {
+   font-weight: bold;
+   font-size: 20px;
+   color: lightcoral;
+   text-transform: uppercase;
+ }
+ li {
+   text-transform: lowercase;
+   font-size: 18px;
+ }
